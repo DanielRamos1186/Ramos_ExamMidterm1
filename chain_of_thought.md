@@ -1,6 +1,3 @@
-import pandas as pd
-import numpy as np
-
 #malformed score data, duplicates 
 
 #the code must clean, refuse the data that it cannot and never crash due to a bad single row
@@ -20,22 +17,3 @@ import numpy as np
 #exception handling that tracks whenever the rows get them for (student, failures) format: {"row": <original raw dict>, "error": <reason>} duplicates are not part of the failure list but must be cleaned 
 
 #function ranking uses sorted() with lambda key to sort average() 
-
-#raw data to be cleaned 
-raw_rows = [
-    {"name": " Amara ", "scores": "92,85,78"},
-    {"name": "Leo", "scores": "88,91,73"},
-    {"name": "Priya", "scores": "65,72,150"},         
-    {"name": "Sam", "scores": "70,not_a_number,60"},  
-    {"name": "Amara", "scores": "95,90,88"},          
-    {"name": "Jade", "scores": "81,77,84,90"},
-]
-
-class Student: 
-    def __init__ (self, name, score):
-        
-
-
-class InsufficientFundsError(Exception):
-
-class StudentRecordLockedError(Exception):

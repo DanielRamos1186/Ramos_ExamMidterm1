@@ -22,13 +22,28 @@ class Student:
             Record = true 
         else 
             print(f"record is not lock")
-            
+
     def add_score():
 
+class StudentCleanerandBuilder:
+    def __init__(self, name, score):
+        if row is clean then it builds the row
 
 
 class InvalidScoreError(Exception):
     def __init__(self, name, score)
+        message=f"that score is not a number {score}"
+    def __init__(self, score)
+        message=f"the score is not within 0 - 100 {score}"
+
+    def __str__(self)
+        return f"{self.name}" 
+    
+    def __repr__(self)
+        return f"{self,name}" 
+
+class StudentRecordLockedError(Exception):
+     def __init__(self, name, score)
         message=f"that score is not a number {score}"
 
     def __str__(self)
@@ -36,4 +51,6 @@ class InvalidScoreError(Exception):
     
     def __repr__(self)
         return f"{self,name}" 
-class StudentRecordLockedError(Exception):
+
+print(Student)
+print(Students)

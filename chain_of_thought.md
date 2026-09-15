@@ -17,3 +17,11 @@
 #exception handling that tracks whenever the rows get them for (student, failures) format: {"row": <original raw dict>, "error": <reason>} duplicates are not part of the failure list but must be cleaned 
 
 #function ranking uses sorted() with lambda key to sort average() 
+
+#rule 1 = score must be 0 - 100 || any error must have a exception message 
+
+#rule 2 = record = built is locked and adding score gives out exception message
+
+#rule 3 = readable code logging __str__ and debugging log __repr__ 
+
+#rule 4 = 
